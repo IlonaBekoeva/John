@@ -1,0 +1,89 @@
+a {
+	text-decoration: none;
+}
+ul,
+ol,
+li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
+h1, 
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+html,
+body {
+	height: 100%;
+	line-height: 1;
+	font-size: 16px;
+	color: #000000;
+	font-family: Heebo;
+}
+.wrapper {
+	min-width: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+}
+._container {
+	max-width: 856px;
+	padding: 0px 15px;
+	margin: 0px auto;
+	box-sizing: content-box;
+}
+/* ................................................................................. */
+.header {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 0;
+	z-index: 50;
+}
+.header__container {
+	display: flex;
+	min-height: 97px;
+	align-items: center;
+}
+@media	(max-width: 479px){
+	min-height: 50px;
+}
+.header__menu {
+	margin: 0px 0px 0px 70%;
+}
+@media	(max-width: 992px){
+	.header__menu {
+	margin: 0px 0px 0px 60%;
+	}
+}
+@media	(max-width: 767px){
+	.header__menu {
+	margin: 0px 0px 0px 50%;
+	}
+}
+.menu__list {
+	flex-wrap: wrap;
+	display: flex;
+}
+.menu__item {
+	margin: 0px 0px 0px 35px;
+}
+.menu__link {
+	color: #000000;
+	font-weight: 500;
+	line-height: 29px;
+}
+/* ................................................................................. */
+.page {
+	flex: 1 1 auto;
+}
+/* ................................................................................. */
+.footer{
+
+}
